@@ -1,0 +1,157 @@
+{
+    "intents": [
+        {
+            "intent": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay",
+                "Good morning",
+                "Good evening",
+                "Greetings"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Hi, how can I assist you?",
+                "Hey, what can I do for you today?"
+            ],
+            "priority": "high",
+            "context": "initial_interaction"
+        },
+        {
+            "intent": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Take care",
+                "Catch you later",
+                "See you soon"
+            ],
+            "responses": [
+                "See you later!",
+                "Goodbye, have a great day!",
+                "Take care, goodbye!",
+                "Catch you later!"
+            ],
+            "priority": "medium",
+            "context": "exit"
+        },
+        {
+            "intent": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help",
+                "I appreciate it",
+                "Much appreciated"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure!",
+                "You're most welcome!",
+                "Glad I could assist!"
+            ],
+            "priority": "low",
+            "context": "gratitude"
+        },
+        {
+            "intent": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who are you exactly?",
+                "Tell me about yourself",
+                "What do you do?"
+            ],
+            "responses": [
+                "I'm Joana, your friendly AI assistant!",
+                "I'm Joana, here to help you with whatever you need.",
+                "I'm Joana, an AI chatbot designed to assist you.",
+                "I'm Joana, here to answer your questions."
+            ],
+            "priority": "medium",
+            "context": "introduction"
+        },
+        {
+            "intent": "name",
+            "patterns": [
+                "What is your name?",
+                "What should I call you?",
+                "What's your name?",
+                "How should I address you?"
+            ],
+            "responses": [
+                "You can call me Joana.",
+                "I'm Joana, nice to meet you!",
+                "Just call me Joana!"
+            ],
+            "priority": "low",
+            "context": "introduction"
+        },
+        {
+            "intent": "help",
+            "patterns": [
+                "Could you help me?",
+                "Give me a hand, please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need support",
+                "I need help",
+                "Support me please"
+            ],
+            "responses": [
+                "Tell me how I can assist you.",
+                "What do you need help with?",
+                "I'm here to help, just let me know!",
+                "Yes, how can I support you today?"
+            ],
+            "priority": "high",
+            "context": "assistance"
+        },
+        {
+            "intent": "createaccount",
+            "patterns": [
+                "I need to create a new account",
+                "How do I open a new account?",
+                "I want to create an account",
+                "Can you create an account for me?",
+                "How can I sign up?"
+            ],
+            "responses": [
+                "You can easily create a new account on our website.",
+                "Just go to our website and follow the steps to create an account.",
+                "Visit our website and you'll find the option to create a new account."
+            ],
+            "priority": "high",
+            "context": "account_creation"
+        },
+        {
+            "intent": "complaint",
+            "patterns": [
+                "I have a complaint",
+                "I want to file a complaint",
+                "There is an issue with a service",
+                "I need to raise a complaint"
+            ],
+            "responses": [
+                "Please share your complaint, and we will assist you.",
+                "We are sorry for any inconvenience. Please tell us your complaint.",
+                "We take complaints seriously. Let us know the details."
+            ],
+            "priority": "medium",
+            "context": "customer_service"
+        },
+        {
+            "intent": "hi",
+            "responses": [
+                "hello"
+            ]
+        }
+    ]
+}
